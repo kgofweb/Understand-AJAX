@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Learn JAVASCRIPT",
+      "author": "Brad"
+    },
+    {
+      "id": 2,
+      "title": "Learn PHP",
+      "author": "Solo Learn"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+
+  "profile": {
+    "id": 1,
+    "name": "Mervy",
+    "function": "Web Designer",
+    "age": 22 
+  }
+}

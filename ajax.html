@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>AJAX with PHP</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Comprendre AJAX</h1>
+    <button id="button" class="btn btn-success">Get Name</button>
+
+    <h1>GET FORM PHP</h1>
+    <form action="GET" action="process.php">
+      <div class="mb-3">
+        <input type="text" name="name" class="form-control" placeholder="Name">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br>
+    <h1>AJAX GET FORM</h1>
+    <form id="getForm">
+      <div class="mb-3">
+        <input type="text" name="name" id="name1" class="form-control" placeholder="Name">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br>
+    <h1>POST FORM PHP</h1>
+    <form action="POST" action="process.php">
+      <div class="mb-3">
+        <input type="text" name="name" class="form-control" placeholder="Name">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br>
+    <h1>AJAX POST FORM</h1>
+    <form id="postForm">
+      <div class="mb-3">
+        <input type="text" name="name" id="name2" class="form-control" placeholder="Name">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  <script src="./ajax.js"></script>
+</body>
+</html>
