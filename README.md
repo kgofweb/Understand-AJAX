@@ -5,3 +5,4 @@ Learn AJAX
 -Les requêtes HTTPS
 -Les functions async
 -Comment fonctionne AJAX avec PHP
+
