@@ -1,12 +1,12 @@
 # Understand-AJAX
 Learn AJAX
 
--Comprzndre comment fonctionne l'AJAX
+- Comprzndre comment fonctionne l'AJAX
 
--Les requêtes HTTPS
+- Les requêtes HTTPS
 
--Les functions async
+- Les functions async
 
--Comment fonctionne AJAX avec PHP
+- Comment fonctionne AJAX avec PHP
 
 
